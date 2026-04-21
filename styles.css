@@ -15,6 +15,7 @@ background-clip: text;           /* estándar */
 color: transparent;              
 -webkit-text-fill-color: transparent;}
 
+/*header*/
 .header {
     position: fixed;
     top: 0;
