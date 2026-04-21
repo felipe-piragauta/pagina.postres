@@ -1,15 +1,81 @@
-<header class="header">
-    <img src="img/logo.letras.jpeg" class="logo">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://t.contentsquare.net/uxa/d87d7364f65af.js"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4CW7PEYP26"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <nav class="nav-center">
+  gtag('config', 'G-4CW7PEYP26');
+</script>
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNQPPJB7');</script>
+<!-- End Google Tag Manager -->
+Tú, 5 min
+Pegue este código justo después de la etiqueta de apertura <body>:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNQPPJB7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNQPPJB7');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pastelería Richi</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+</head>
+<!-- LOADER CINEMÁTICO -->
+<div id="loader">
+
+    <div class="loader-content">
+
+        <img src="img/logo01.jpeg" class="loader-logo">
+
+        <h2 class="loader-title">Pastelería Richi</h2>
+        <p class="loader-sub">Preparamos tus postres...</p>
+
+    </div>
+
+</div>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNQPPJB7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<header class="header">
+      <img src="img/logo.letras.jpeg">
+    <nav>
         <a href="#">Inicio</a>
         <a href="#productos">Productos</a>
-        <a href="#faq">Contacto</a>
+        <a href="#">Contacto</a>
     </nav>
 </header>
-
-<!-- HERO -->
 <section class="hero reveal">
+    <div class="hero-bg"></div> <!-- 🔥 fondo dinámico -->
+
     <div class="hero-content">
         <h1>PASTELERÍA RICHI</h1>
         <h2>Alta Pastelería Artesanal</h2>
@@ -18,73 +84,74 @@
     </div>
 </section>
 
-<!-- BENEFICIOS -->
 <section class="beneficios reveal">
     <h2>¿Por qué elegirnos?</h2>
     <div class="grid">
-        <div class="card">
+        <div class="card reveal">
             <h3>Ingredientes premium</h3>
             <p>Mejor sabor</p>
         </div>
-        <div class="card">
+        <div class="card reveal">
             <h3>Diseños únicos</h3>
             <p>Personalizados</p>
         </div>
-        <div class="card">
+        <div class="card reveal">
             <h3>Entrega rápida</h3>
-            <p>Sin demoras</p>
+            <p>Sin demoras</p>   
         </div>
+    </div>
+     <div class="logo-bottom">
+        <img src="img/logo01.jpeg">
     </div>
 </section>
 
-<!-- CTA 1 -->
 <section class="cta reveal">
     <h2>No esperes más</h2>
     <button onclick="toggleCarrito()">Ver carrito</button>
 </section>
 
-<!-- EXPLICACIÓN -->
-<section class="explicacion reveal">
-    <h2>¿Cómo funciona?</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>1. Elige</h3>
-            <p>Selecciona tus productos favoritos</p>
-        </div>
-        <div class="card">
-            <h3>2. Agrega</h3>
-            <p>Llévalos al carrito fácilmente</p>
-        </div>
-        <div class="card">
-            <h3>3. Paga</h3>
-            <p>Usa Nequi o Daviplata</p>
-        </div>
-    </div>
-</section>
-
-<!-- PRODUCTOS -->
 <section id="productos" class="productos reveal">
     <h2>Productos</h2>
     <div class="grid">
 
-        <div class="card">
+        <div class="card reveal">
             <img src="img/pastel01.jpeg">
             <h3>Pastel Premium</h3>
             <p>$60.000</p>
             <button onclick="agregar('Pastel Premium',60000)">Agregar</button>
         </div>
 
-        <div class="card">
+        <div class="card reveal">
             <img src="img/pastel02.jpeg">
             <h3>Cupcakes</h3>
             <p>$25.000</p>
             <button onclick="agregar('Cupcakes',25000)">Agregar</button>
         </div>
 
+        <div class="card reveal">
+            <img src="img/pastel03.jpeg">
+            <h3>Galletas</h3>
+            <p>$50.000</p>
+            <button onclick="agregar('Galletas',50000)">Agregar</button>
+        </div>
+
+        <div class="card reveal">
+            <img src="img/pastel04.jpeg">
+            <h3>Macarons</h3>
+            <p>$30.000</p>
+            <button onclick="agregar('Macarons',30000)">Agregar</button>
+        </div>
+
+        <div class="card reveal">
+            <img src="img/pastel05.jpeg">
+            <h3>Postres personalizados</h3>
+            <p>$30.000</p>
+            <button onclick="agregar('Postres',30000)">Agregar</button>
+        </div>
+
     </div>
 </section>
 
-<!-- TESTIMONIOS -->
 <section class="testimonios reveal">
     <h2>Clientes felices</h2>
     <div class="grid">
@@ -94,25 +161,33 @@
     </div>
 </section>
 
-<!-- CTA 2 -->
-<section class="cta2 reveal">
-    <h2>¿Listo para endulzar tu día?</h2>
-    <button onclick="toggleCarrito()">Ordenar ahora</button>
-</section>
-
-<!-- FAQ -->
-<section id="faq" class="faq reveal">
+<section class="faq reveal">
     <h2>Preguntas</h2>
     <p>Pagos con Nequi y Daviplata</p>
 </section>
 
-<!-- PRE FOOTER -->
 <section class="prefooter reveal">
     <h2>Haz tu pedido ahora</h2>
     <button onclick="pagarWompi()">Pagar</button>
 </section>
 
-<!-- FOOTER -->
 <footer>
     <p>© 2026 Pastelería Richi</p>
 </footer>
+
+<!-- CARRITO -->
+<div class="carrito-float" onclick="toggleCarrito()">
+    🛒 <span id="contador">0</span>
+</div>
+
+<div id="panel-carrito" class="panel-carrito">
+    <h3>Tu pedido</h3>
+    <div id="lista-carrito"></div>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="pagarWompi()">Pagar</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
