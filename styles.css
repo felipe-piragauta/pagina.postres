@@ -15,23 +15,29 @@ background-clip: text;           /* estándar */
 color: transparent;              
 -webkit-text-fill-color: transparent;}
 
-/* HEADER */
-.header {
-    position: fixed; /* se queda arriba */
+/.header {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 
     display: flex;
-    justify-content: center; /* centra el contenido horizontalmente */
     align-items: center;
-    flex-wrap: wrap; /* permite que los elementos bajen si no caben */
+    justify-content: space-between; /* separa logo y nav */
 
     padding: 15px 20px;
     background: rgba(0,0,0,0.9);
     backdrop-filter: blur(10px);
 
     z-index: 1000;
+}
+
+.header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* 👈 centra el menú */
+    display: flex;
+    gap: 20px;
 }
 
 /* LOGO */
