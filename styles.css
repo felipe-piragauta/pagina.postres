@@ -15,7 +15,7 @@ background-clip: text;           /* estándar */
 color: transparent;              
 -webkit-text-fill-color: transparent;}
 
-/.header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +23,6 @@ color: transparent;
 
     display: flex;
     align-items: center;
-    justify-content: space-between; /* separa logo y nav */
 
     padding: 15px 20px;
     background: rgba(0,0,0,0.9);
@@ -32,23 +31,27 @@ color: transparent;
     z-index: 1000;
 }
 
+/* LOGO */
+.header img {
+    height: 50px; /* 👈 controla el tamaño */
+    object-fit: contain;
+}
+
+/* NAV CENTRADO REAL */
 .header nav {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); /* 👈 centra el menú */
+    transform: translateX(-50%);
+
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
-/* LOGO */
-.header h1 {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0 20px; /* espacio alrededor del logo */
-
-    background: linear-gradient(45deg,#d4af37,#ffd700,#b8962e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* LINKS */
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 /* NAV */
